@@ -18,7 +18,6 @@ a {
 #banner {
 	height:134px;
 	background-color: black;
-	margin-top:100px;
 }
 
 #header {
@@ -38,4 +37,8 @@ a {
 	color:#CCCCCC;
 	font-weight:bold;
 	float: right;
+	border:solid 1px red;
+	position: relative;
+	top: 40px;
+	right: 45px;
 }
