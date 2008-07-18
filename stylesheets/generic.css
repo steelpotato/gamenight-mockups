@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {
+	margin:1em 0pt;
+}
+
+li, dd {
+margin-left:5%;
+}
+fieldset {
+padding:0.5em;
+}
+
+.left {
+float:left;
+}
+.right {
+float:right;
+}
+
+.clear {
+clear:both;
+font-size:1px;
+height:1px;
+line-height:1px;
+}
+
+a img {
+border:medium none;
+}

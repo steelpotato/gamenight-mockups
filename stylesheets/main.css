@@ -1,0 +1,52 @@
+html, body { padding:0; margin:0; font-size:;}
+
+
+
+/****************************
+		GLOBAL
+*****************************/
+html, body, p, div { 
+	font-size:12px;
+	font-family: Verdana, Arial;
+	color: #333; 
+}
+
+h1, h2, h3, h4, h5 { 
+	font-family:"Helvetica Neue", Helvetica, Verdana, Arial;
+	color:black; 
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+
+a 		{ color:#900; font-weight:bold; }
+a:hover { text-decoration:underline; }
+
+/****************************
+		BANNER
+*****************************/
+#banner { background-color: black; }
+#banner { height: 134px; }
+#logo	{ float:left; width:244px; height: 48px; position:relative; top:40px; left:40px; }
+
+fieldset.search { border:none; float:right; position:relative; top:150px; right:20px;}
+fieldset.search span.field input { width:300px; }
+
+#login { float:right; clear:both; text-align:right; border:solid thin white;}
+
+/****************************
+		HEADER
+*****************************/
+#header { background-image:url('../images/header.gif') }
+#header { height: 264px; margin:0, padding:0; border:solid 1px #FFE8CD;}
+
+#header .message	{ margin:28px 40px; width:376px; text-align:center;}
+#header .message p 	{ font-size:16px; color:black; line-height:26px;}
+#header .message a	{ font-size:28px; }
+
+#header .links 			{ position:absolute; top:390px; right:20px; }
+#header .links a 		{ text-decoration:none; border:solid 1px #CCC; background-color:#FFF; padding:6 20 6 20; margin-right:6px; }
+#header .links a:hover	{ background-color:#900; color:#FFF; }
+
+
+
